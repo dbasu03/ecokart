@@ -1,0 +1,302 @@
+/*
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow:inset0 1px 3px -2px black;
+    margin-bottom: 0px;
+
+}
+*/
+
+/*.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: inset 0 1px 3px -2px black;
+    margin-bottom: 0px;
+    background: linear-gradient(135deg, #3b9e3b, #007c00);
+    animation: glowing 2s infinite alternate;
+  }
+  
+  @keyframes glowing {
+    from {
+      background-color: #007c00;
+      box-shadow: 0 0 10px #007c00, 0 0 20px #007c00, 0 0 30px #007c00, 0 0 40px #007c00, 0 0 70px #007c00, 0 0 80px #007c00, 0 0 100px #007c00;
+    }
+    
+    to {
+      background-color: #3b9e3b;
+      box-shadow: 0 0 20px #3b9e3b, 0 0 30px #3b9e3b, 0 0 40px #3b9e3b, 0 0 70px #3b9e3b, 0 0 80px #3b9e3b, 0 0 100px #3b9e3b, 0 0 150px #3b9e3b;
+    }
+  }
+  
+  
+
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.nav-logo p{
+    color: #171717;
+    font-size: 38px;
+    font-weight: 600;
+
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #FF4141;
+
+}
+
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+
+}
+
+.nav-login-cart button{
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+
+}
+
+.nav-login-cart button:active{
+    background: #f3f3f3;
+
+}
+
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+
+}*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap');*/
+
+
+
+
+
+/*
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: inset 0 1px 3px -2px black;
+    margin-bottom: 0px;
+    background: linear-gradient(135deg, #b3ffb3, #80ff80);
+}
+*/
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: inset 0 1px 3px -2px black;
+    margin-bottom: 0px;
+    background-color: #f5f5dc; /* Beige background color */
+    animation: glowing 2s infinite alternate;
+}
+
+@keyframes glowing {
+    from {
+        background-color: #d2b48c; /* Dark beige for glow animation start */
+        box-shadow: 0 0 10px #d2b48c, 0 0 20px #d2b48c, 0 0 30px #d2b48c, 0 0 40px #d2b48c, 0 0 70px #d2b48c, 0 0 80px #d2b48c, 0 0 100px #d2b48c;
+    }
+    to {
+        background-color: #f5f5dc; /* Beige background color */
+        box-shadow: 0 0 20px #d2b48c, 0 0 30px #d2b48c, 0 0 40px #d2b48c, 0 0 70px #d2b48c, 0 0 80px #d2b48c, 0 0 100px #d2b48c, 0 0 150px #d2b48c;
+    }
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo p {
+    color: #171717;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+/*
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #000000;
+    font-size: 24px; 
+    font-weight: 500;
+}
+
+.nav-menu li {
+    cursor: pointer;
+    color:#000000;
+}
+
+.nav-menu li:hover {
+    transform: scale(1.1); 
+}
+
+.nav-menu hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #FF4141;
+}
+*/
+/* Existing CSS styles remain unchanged */
+
+
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.nav-menu li {
+    cursor: pointer;
+}
+
+.nav-menu li a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-menu li:hover {
+    transform: scale(1.1); 
+}
+
+.nav-menu hr {
+    border: none;
+    width: 80%;
+    height: 2px;
+    border-radius: 10px;
+    background: #000000;
+}
+
+.nav-menu li.selected {
+    text-decoration: underline; /* Underline the selected menu item */
+    
+}
+
+.nav-menu li.selected:hover {
+    transform: none; /* Remove hover effect on the selected item */
+    /*transform: scale(1.05);
+    transition: 0.6s;*/
+}
+
+.nav-menu li.selected hr {
+    display: block; /* Show underline for selected item */
+}
+
+.nav-menu li.selected:not(:hover) hr {
+    display: none; /* Hide underline for selected item when not hovered */
+}
+
+/* Apply Montserrat font to grocery, items, and fashion options */
+.nav-menu li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.nav-login {
+    display: flex;
+    align-items: center;
+}
+
+.nav-login button {
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 75px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    background: #d2b48c;
+    cursor: pointer;
+}
+
+.nav-login button:hover {
+    animation: glowing 1.5s infinite alternate; 
+}
+/*
+@keyframes glowing {
+    from {
+        box-shadow: 0 0 10px #4CAF50, 0 0 20px #4CAF50, 0 0 30px #4CAF50, 0 0 40px #4CAF50, 0 0 70px #4CAF50, 0 0 80px #4CAF50, 0 0 100px #4CAF50;
+    }
+    
+    to {
+        box-shadow: 0 0 20px #4CAF50, 0 0 30px #4CAF50, 0 0 40px #4CAF50, 0 0 70px #4CAF50, 0 0 80px #4CAF50, 0 0 100px #4CAF50, 0 0 150px #4CAF50;
+    }
+}*/
+
+@keyframes glowing {
+    from {
+        box-shadow: 0 0 10px #b59f85, 0 0 20px #b59f85, 0 0 30px #b59f85, 0 0 40px #b59f85, 0 0 70px #b59f85, 0 0 80px #b59f85, 0 0 100px #b59f85;
+    }
+    
+    to {
+        box-shadow: 0 0 20px #b59f85, 0 0 30px #b59f85, 0 0 40px #b59f85, 0 0 70px #b59f85, 0 0 80px #b59f85, 0 0 100px #b59f85, 0 0 150px #b59f85;
+    }
+}
+

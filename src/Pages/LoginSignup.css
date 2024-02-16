@@ -1,0 +1,45 @@
+/* LoginSignup.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Beige background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff; /* White container background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  }
+  
+  .container p {
+    font-size: 18px;
+    color: #555; /* Dark gray text color */
+    text-align: center;
+  }
+  
+  .container p::first-letter {
+    font-size: 24px;
+    color: #333; /* Darker gray color for first letter */
+  }
+  
+  .container p::after {
+    content: '.';
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  

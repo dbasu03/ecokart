@@ -1,0 +1,29 @@
+/*
+import React from 'react';
+import './Item1.css';
+
+const Item = (props) => {
+  return (
+    <div className="item">
+        <img src={props.image} alt="" />
+        <p>{props.name}</p>
+
+        <div className="item-prices">
+          <div className="item-prices-new">
+            ₹{props.new_prices}      
+          </div>
+          <div className="item-prices-old">
+            ₹{props.old_prices}
+          </div>
+  </div>
+
+        <p>{props.link}</p>
+        
+
+    </div>
+
+  );
+};
+
+export default Item1;
+*/

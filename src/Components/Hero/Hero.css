@@ -1,0 +1,173 @@
+/*
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+.hero{
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+}
+
+.hand-hand-icon{
+  
+  
+    flex: 1;
+    padding-left: 50px; 
+    font-size: 26px;
+    font-weight: 600;
+
+}
+
+.hero-left{
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:#285f12;
+  width: 100%;
+  height: 100vh;
+  font-size: 26px;
+    font-weight: 200;
+
+}
+
+.hero-left h2{
+    color: #0d440d;
+    font-size: 26px;
+    font-weight: 600;
+    font-size: 26px;
+    font-weight: 200;
+
+}
+
+.hero-left p{
+    font-size: 40px;
+    font-weight: 200;
+    color:#060e03;
+    font-size: 18px;
+    font-weight: 200;
+    padding-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+
+.her-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 50;
+    height: 25px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #285f12;
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+}
+.hero-right{
+    flex: 1;
+    text-align: right;
+    padding-right: 100px; 
+   
+  display: flex;
+  justify-content: flex-end;
+  max-width: 100%; 
+  max-height: 100%; 
+  object-fit: contain;
+}
+
+*/
+/*
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.hero {
+    height: 100vh;
+    background-color: #f0fff0; 
+    display: flex;
+}
+
+.hand-hand-icon {
+    flex: 1;
+    padding-left: 50px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.hero-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #285f12;
+    width: 100%;
+    height: 100vh;
+    font-size: 26px;
+    font-weight: 200;
+}
+
+.hero-left p {
+    font-size: 18px;
+    font-weight: 200;
+    color: #060e03;
+    padding-left: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-right {
+    flex: 1;
+    text-align: right;
+    padding-right: 100px;
+}
+
+.hero-left p, .hero-left h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.her-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 50px; 
+    height: 25px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #285f12;
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.6;
+}
+

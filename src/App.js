@@ -1,25 +1,44 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Shop from './Pages/Shop';
+//import Shop1 from './Pages/Shop1';
+//import ShopCategory from './Pages/ShopCategory';
+import Product from './Pages/Product';
+import Cart from './Pages/Cart';
+import LoginSignup from './Pages/LoginSignup';
+import Footer from './Components/Footer/Footer';
+//import Grocery from './Pages/Grocery';//new change
+import Shop1 from './Pages/Shop1';
+import Shop2 from './Pages/Shop2';
+import Topic1 from './Pages/Topic1';
 
 function App() {
   return (
-    <div>
+    
+  <div>
       <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path='/grocery' element={<ShopCategory category="grocery"/>}/>
-        <Route path='/items' element={<ShopCategory category="items"/>}/>
-        <Route path='/fashion' element={<ShopCategory category="fashion"/>}/>
-        <Route path='/product' element={<Product/>}/>
+        <Route path='/' element={<Shop/>}/>
+        <Route path='/grocery' element={<Shop1/>} /> 
+        <Route path='/items' element={<Shop2/>}/>
+        <Route path='/fashion' element={<LoginSignup/>}/>
+        <Route path='/new' element={<Topic1/>}/>  {/*just for test*/}
+        <Route path="/product" element={<Product/>}>
           <Route path=':productId' element={<Product/>}/>
-        <Route/>
+
+        </Route>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/login' element={<LoginSignup/>}/>
 
       </Routes>
+      <Footer/>
       </BrowserRouter>
-    </div>
+  </div>
   );
 }
+
 
 export default App;
