@@ -146,10 +146,10 @@ const Navbar = () => {
                 navigate('/grocery');
                 break;
             case "items":
-                navigate('/items');
+                navigate('/fashion');
                 break;
             case "fashion":
-                navigate('/fashion');
+                navigate('/living');
                 break;
             default:
                 navigate('/');
@@ -160,7 +160,7 @@ const Navbar = () => {
         <div className='navbar'>
             <div className="nav-logo">
                 <img src={logo} alt="" />
-                <p>  Greenstop </p>
+                <p>  Greenstop. </p>
             </div>
 
             <ul className="nav-menu">

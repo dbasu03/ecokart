@@ -22,9 +22,9 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Shop/>}/>
-        <Route path='/grocery' element={<Shop1/>} /> 
-        <Route path='/items' element={<Shop2/>}/>
-        <Route path='/fashion' element={<LoginSignup/>}/>
+        <Route path='/grocery' element={<LoginSignup/>}/>     {/*{<Shop1/>} />*/}
+        <Route path='/fashion' element={<LoginSignup/>}/>        {/*{<Shop2/>}/> */}
+        <Route path='/living' element={<LoginSignup/>}/>
         <Route path='/new' element={<Topic1/>}/>  {/*just for test*/}
         <Route path="/product" element={<Product/>}>
           <Route path=':productId' element={<Product/>}/>
